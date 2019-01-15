@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Little Fairy</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="resource/iconfont.css">
+</head>
+<body>
+<div id="content-nav">
+  <div>
+    <span id="name"> Little Fairy's Portfolio</span>
+  </div>
+  <ul id="content-nav-ul">
+    <li id="three">contact</li>
+    <li id="two">Portfolio</li>
+    <li id="one" class="nav-change" >Introduct</li>
+  </ul>
+</div>
+<div id="nav-scroll"></div>
+<div id="content-partOne" class="content-part">
+  <div id="partOne-head">
+    <div id="partOne-portrait">
+      <img src="image/111J16454-0.jpg" alt="">
+    </div>
+    <div id="partOne-title">ABOUT ME</div>
+  </div>
+  <div id="partOne-personal">Little Fairy</div>
+  <div id="partOne-add"></div>
+  <div id="partOne-describe">
+    - want to learn everything <br>
+    - but nothing learned
+  </div>
+</div>
+<div id="content-partTwo" class="content-part">
+  <div class="part-title">My Protfolio</div>
+  <div id="partTwo-con">
+    <img src="image/one.png" alt="">
+    <div id="partTwo-filter"></div>
+    <div id="partTwo-top" class="content-trans">Portfolio</div>
+    <div id="partTwo-bottom" class="content-trans">Nothing to show but this page</div>
+  </div>
+</div>
+
+<div id="content-partThree" class="content-part">
+  <div class="part-title">Content With Me</div>
+  <div id="partThree-left">
+    <form>
+      <div class="input-group">
+        <textarea id="partThree-subject" class="partThree-con" rows="4" cols="60" placeholder="Subject" oninput="one()"></textarea>
+        <div class="input-title">Subject</div>
+      </div>
+      <div class="input-group">
+        <textarea id="partThree-content" class="partThree-con" rows="6" cols="60" placeholder="Content" oninput="two()" ></textarea>
+        <div class="input-title" >Content</div>
+      </div>
+
+      <input id="email-button" type="button" value="Email">
+    </form>
+  </div>
+  <div id="partThree-right">
+      <p id="partThree-right-con">
+        You can use contact me in email which in the left or the following method.
+      </p>
+    <div id="icons">
+      <a href="https://github.com"><i class="iconfont icon-github"></i></a>
+      <a href=""><i class="iconfont icon-unie652"></i></a>
+      <a href=""><i class="iconfont icon-weixin-copy"></i></a>
+    </div>
+  </div>
+</div>
+<script src="./portfolio.js"></script>
+</body>
+</html>
